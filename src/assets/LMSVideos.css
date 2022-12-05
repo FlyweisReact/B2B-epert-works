@@ -1,0 +1,193 @@
+.mainDivVideos {
+  background: #f9f9f9;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.heading {
+  background-color: #29303b;
+  display: flex;
+}
+.course-title-text {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  width: auto;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.es-logo-white {
+  display: block;
+  position: relative;
+  background-image: url("../img/E-LOGO.png");
+  height: 80px;
+  width: 80px;
+  background-size: 100% 100%;
+  margin-left: 3%;
+}
+
+.flex-container {
+  width: calc(100% + 1.25rem);
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 0px;
+  margin-left: -0.625rem;
+  margin-right: -0.625rem;
+}
+
+
+
+.content_description {
+  flex: 1 1 25%;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #e8e9eb;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.thumbnail_content {
+  display: flex;
+  width: 28.375rem;
+  margin-bottom: 0.9375rem;
+  margin-left: 0.5rem;
+  opacity: 1;
+  cursor: pointer;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.thumbnail_img {
+  margin-right: 0.9375rem;
+  -ms-flex-preferred-size: 44.9%;
+  flex-basis: 44.9%;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.item_selected .thumbnail_img img {
+  border: 5px solid #e6ebec;
+}
+
+.thumbnail_description {
+  float: right;
+  width: 51.57%;
+  max-width: 51.57%;
+  margin-right: 0;
+  -ms-flex: 1;
+  flex: 1;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.maininfo {
+  color: rgb(26, 46, 59);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.01rem;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+  max-width: 44rem;
+}
+
+.subinfo {
+  color: rgb(132, 152, 164);
+  font-size: 0.875rem;
+  font-weight: normal;
+  letter-spacing: 0.01rem;
+  line-height: 1.42857;
+  margin-bottom: 1.25rem;
+  max-width: 44rem;
+}
+
+.subinfo a {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+  color: #8498a4;
+  padding: 0;
+  line-height: 1.42857;
+  font-size: 0.875rem;
+  letter-spacing: 0.01rem;
+}
+
+.courseContent {
+  font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto,
+    segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border: 1px solid #dedfe0;
+  border-right: none;
+  background-color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: -0.02rem;
+}
+.sidebar {
+  width: 29%;
+  height: 100vh;
+  overflow-y: scroll;
+  z-index: 1000;
+}
+.rightBar {
+  width: 70%;
+  overflow-y: auto;
+}
+.courseSection {
+  border-bottom: 1px solid #dedfe0;
+}
+.courseSection-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #f7f8fa;
+}
+.courseSection .courseSection-box .courseSection-sub-box {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.43em;
+  max-width: 100%;
+  margin: 0 24px 0 0;
+}
+
+.maininfo a {
+  color: #1a2e3b;
+}
+
+video {
+  object-fit: fill;
+}
+INPUT[type="checkbox"]:focus {
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+INPUT[type="checkbox"] {
+  background-color: #ddd;
+  border-radius: 2px;
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  position: relative;
+  top: 5px;
+}
+
+INPUT[type="checkbox"]:checked {
+  background-color: #409fd6;
+  background: #409fd6
+    url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==")
+    3px 3px no-repeat;
+}

@@ -1,0 +1,10 @@
+.custom-table{
+    border: 2px solid blue;
+}
+
+.secondary{
+    background-color: #0076CE;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10%;
+}

@@ -1,0 +1,92 @@
+.user-content {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+.user-container {
+  margin: 100px 30px;
+}
+.user-form {
+  width: 40%;
+}
+.user-form-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.user-table {
+  margin: 20px;
+  border: 2px solid #0076ce;
+}
+.add-user {
+  background-color: #0076ce;
+  color: #fff;
+  padding: 15px 40px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.user-form-group .user-input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 30px;
+  font-family: Poppins;
+  box-sizing: border-box;
+  margin: 10px 30px;
+}
+
+input:focus {
+  border: 2px solid red;
+}
+
+.signup-image {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .user-container {
+    width: calc(100% - 30px);
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .user-container {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .user-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  .user-form {
+    width: 100%;
+  }
+
+  .form-title {
+    margin-bottom: 30px;
+    text-align: start;
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .social-login {
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -o-flex-direction: column;
+    -ms-flex-direction: column;
+  }
+
+  .social-label {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}

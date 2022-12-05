@@ -1,0 +1,233 @@
+.expert-business {
+  margin: auto 70px;
+}
+.expert-business-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.expert-business-intro div {
+  text-align: start;
+}
+.expert-business-desc {
+  margin-top: 50px;
+}
+.expert-business-desc h1 {
+  font-weight: 700;
+}
+.expert-business-desc div {
+  text-align: start;
+}
+.expert-business-desc p {
+  font-size: 15px;
+  margin: 14px auto;
+}
+.expert-bus-size {
+  height: 500px;
+}
+.expert-bus-text-left {
+  text-align: left;
+  margin: unset;
+}
+.expert-bus-more-info {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+}
+.expert-bus-more-info .left-content {
+  width: 45%;
+}
+.expert-bus-more-info .left-content span {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #666;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-align: left;
+  display: block;
+}
+.expert-bus-more-info .left-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+.expert-bus-more-info .left-content p {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.expert-bus-more-info .filled-button {
+  margin-right: -30px;
+}
+
+.expert-bus-fun-facts {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+  background-image: url('../../img/fun-facts-bg.jpg');
+  color: white;
+  padding: 100px 50px 100px 50px;
+}
+.expert-bus-fun-facts .left-content {
+  width: 45%;
+}
+.expert-bus-fun-facts .right-content {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.count-area-content {
+  text-align: center;
+  flex: 1 0 41%; /* explanation below */
+  margin: 5px 20px 20px 5px;
+  background-color: rgba(250, 250, 250, 0.1);
+  padding: 25px 30px 35px 30px;
+}
+.count-digit {
+  margin: 5px 0px;
+  color: #0066cc;
+  font-weight: 700;
+  font-size: 36px;
+}
+.count-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+.expert-bus-fun-facts .left-content span {
+  color: white;
+
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #666;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-align: left;
+  display: block;
+}
+.expert-bus-fun-facts .left-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  text-align: left;
+  color: white;
+}
+
+.expert-bus-fun-facts .left-content p {
+  margin-bottom: 30px;
+  text-align: left;
+  color: white;
+}
+
+.expert-bus-fun-facts .filled-button {
+  margin-right: -80px;
+}
+
+.expert-more-info {
+  background-color: #f7f7f7f7;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .expert-business {
+    margin: 0px 30px;
+  }
+  .expert-business-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 0px 0px 0px;
+  }
+  .expert-business-desc {
+    margin-top: 10px;
+  }
+  .expert-business-desc h1,
+  .expert-bus-more-info .left-content h2,
+  .section-heading h2,
+  .section-heading em,
+  .expert-bus-fun-facts .left-content h2,
+  .home-container5 h2 {
+    font-size: 30px !important;
+  }
+  .expert-bus-size {
+    height: auto;
+  }
+  .count-area-content {
+    margin: 10px 0px 20px 0px;
+  }
+  .expert-bus-more-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .expert-bus-more-info .left-content {
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .expert-bus-more-info .right-content {
+    display: flex;
+    width: 100%;
+    height: 250px;
+  }
+  .home-container6 {
+    margin-top: 50px;
+  }
+  .expert-bus-fun-facts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 40px 20px 40px 20px;
+  }
+  .expert-bus-fun-facts .left-content {
+    width: auto;
+  }
+  .expert-bus-fun-facts .right-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .home-form {
+    margin: 40px 40px 40px 20px;
+  }
+  .footer-block h4,
+  .footer-block li {
+    display: block;
+  }
+  #sub-footer {
+    padding: 0px;
+  }
+  .expert-more-info {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .expert-business-intro div {
+    margin: 30px 0px 0px 0px;
+  }
+  .expert-bus-size {
+    height: auto;
+    width: 100%;
+  }
+  .expert-business-desc div {
+    margin: 0px;
+  }
+  .home-container5 {
+    margin-top: 50px;
+  }
+  .home-container5 h2 {
+    margin: 20px 10px;
+  }
+  .home-container5 .inner-container {
+    flex-direction: column;
+    padding: 10px 20px 40px 10px !important;
+  }
+  .request-form a.border-button {
+    margin-top: 10px;
+    padding: 6px 20px;
+  }
+}

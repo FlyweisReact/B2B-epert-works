@@ -1,0 +1,31 @@
+/* .es-logo {
+  display: block;
+  position: relative;
+  background-image: url("../../../img/logo.png"); 
+  height: 80px;
+  width: 200px;
+  background-size: 100% 100%;
+  margin-left: 2%;
+} */
+.es-logo img {
+  display: block;
+  position: relative;
+  /* background-image: url("img/logo-new.png"); */
+  height: 80px;
+  width: 200px;
+  background-size: 100% 100%;
+  margin-left: 2%;
+  margin-top: 10px;
+}
+@media screen and (max-width: 949px) {
+  .es-logo img {
+    display: block;
+    /* position: fixed; */
+    /* background-image: url("../../../img/logo.png"); */
+    height: 50px;
+    width: 150px;
+    background-size: 100% 100%;
+    margin: 20px 20px;
+    text-align: center;
+  }
+}

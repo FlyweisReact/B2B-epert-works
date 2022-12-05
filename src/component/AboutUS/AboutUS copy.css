@@ -1,0 +1,66 @@
+.aboutus-tech {
+  margin: 10px;
+}
+
+.textleft {
+  text-align: left;
+}
+
+.aboutus-text-size {
+  font-size: 14px;
+  text-align: justify;
+
+}
+.aboutus-justify{
+  text-align: left;
+}
+.aboutus-container,.aboutus-align{
+  display: flex;
+  
+}
+.aboutus-container p{
+  margin: 0 0 10px;
+}
+
+.aboutus-image{
+  width: 400px;
+  height: 280px;
+  margin-left: 380px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  .text-size {
+    font-size: 13px;
+    width: 50%;
+    /* margin: 10px 10px; */
+  }
+}
+@media screen and (max-width: 450px) {
+  .text-size {
+    font-size: 13px;
+    width: 50%;
+    /* margin: 10px 10px; */
+  }
+  .aboutus-container,.aboutus-align{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.aboutus-image{
+  width: 300px;
+    height: 180px;
+    margin-left: -380px;
+    margin-top: 20px;
+}
+.aboutus-text-size {
+  font-size: 14px;
+  text-align: justify !important;
+  width: 44%;
+}
+.aboutus-justify {
+  text-align: justify;
+  width: 44%;
+}
+}

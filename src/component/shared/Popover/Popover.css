@@ -1,0 +1,14 @@
+.popover-addtocart{
+    background-color: #0066CC;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 0.3s;
+    margin-top: 14px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+  }

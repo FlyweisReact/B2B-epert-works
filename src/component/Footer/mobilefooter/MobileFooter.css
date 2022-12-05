@@ -1,0 +1,38 @@
+.mobilefooter-elements {
+  margin-left: 57%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  margin-top: 20%;
+}
+
+.element-color {
+  color: #949494;
+}
+.footer-block {
+  margin-bottom: 25px;
+}
+.footer-flex {
+  margin: 0px 190px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-block h4 {
+  display: flex;
+  margin-bottom: 12px;
+}
+.footer-block li {
+  display: flex;
+}
+@media screen and (max-width: 415px) {
+  .footer-flex {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .copyright {
+    margin-left: 30px;
+  }
+  .social-network {
+    margin-left: 35px !important;
+  }
+}

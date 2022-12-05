@@ -1,0 +1,9 @@
+.table-link,.table-link:hover
+{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.table-link:hover{
+    cursor: pointer;
+    font-weight: bold;
+}

@@ -1,0 +1,79 @@
+.pageTitle {
+  color: #fff;
+  margin: 30px 0 3px;
+  display: inline-block;
+}
+.container {
+  padding: 0 20px 0 20px;
+  position: relative;
+}
+#inner-headline {
+  background: #2056ae url(../../img/slides/1.jpg) top right;
+  position: relative;
+  margin: 0;
+  padding: 24px 0;
+  background-size: 39%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+}
+#inner-headline:before {
+  content: "";
+  position: absolute; /* background: rgba(0, 0, 0, 0.42); */
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#inner-headline h2.pageTitle {
+  color: #ffffff;
+  padding: 5px 0;
+  text-align: left;
+  display: block;
+  font-size: 34px;
+  font-weight: 700;
+  position: relative;
+  z-index: 3;
+}
+
+/* --- breadcrumbs --- */
+#inner-headline ul.breadcrumb {
+  margin: 40px 0;
+  float: left;
+}
+
+#inner-headline ul.breadcrumb li {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#inner-headline ul.breadcrumb li {
+  font-size: 13px;
+  color: #fff;
+}
+
+#inner-headline ul.breadcrumb li i {
+  color: #dedede;
+}
+
+#inner-headline ul.breadcrumb li a {
+  color: #fff;
+}
+.row,
+.row-fluid {
+  margin-bottom: 30px;
+}
+
+.row .row,
+.row-fluid .row-fluid {
+  margin-bottom: 30px;
+}
+
+.row.nomargin,
+.row-fluid.nomargin {
+  margin-bottom: 0;
+}
+
+.main {
+}

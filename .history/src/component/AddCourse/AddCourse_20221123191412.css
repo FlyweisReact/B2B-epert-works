@@ -1,0 +1,12 @@
+
+.selectForm{
+    margin-top: 5%;
+}
+
+ select {
+    
+    width: 30%;
+    padding: 10px;
+    border: none;
+    /* border-bottom: 1px solid black; */
+}

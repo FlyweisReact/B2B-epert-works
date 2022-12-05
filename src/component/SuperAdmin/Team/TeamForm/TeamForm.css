@@ -1,0 +1,162 @@
+.user-content {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+.user-container {
+  width: 100%;
+  margin: 5% 15% 0% 15%;
+}
+
+.user-form {
+  width: 40%;
+}
+.user-form-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.user-table {
+  margin: 20px;
+  border: 2px solid #0076ce;
+}
+.add-user {
+  background-color: #0076ce;
+  color: #fff;
+  padding: 15px 40px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.user-form-group .user-input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 30px;
+  font-family: Poppins;
+  box-sizing: border-box;
+  margin: 10px 30px;
+}
+
+input:focus {
+  border: 2px solid red;
+}
+
+.team-create-error {
+  color: red;
+  font-size: 14px;
+  display: flex;
+  margin-left: 43px;
+}
+.create-team-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 2%;
+  margin-top: -10%;
+}
+
+.create-team-content h5 {
+  text-align: start;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.create-team-content p {
+  text-align: justify;
+  margin: 0px;
+}
+
+.create-team-image {
+  /* display: flex; */
+  width: 50%;
+  margin-top: -8%;
+  margin-left: 15%;
+}
+
+@media screen and (max-width: 1200px) {
+  .user-container {
+    width: calc(100% - 30px);
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .user-container {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .user-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .user-form {
+    width: 100%;
+  }
+
+  .form-title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .create-team-image {
+    width: 100%;
+    margin: -5% 0% 0px 0px;
+    padding-right: 10%;
+  }
+
+  .create-team-content {
+    width: 86%;
+    margin-right: 2%;
+    margin-top: 0px;
+  }
+
+  .user-form {
+    width: 90% !important;
+  }
+  .social-login {
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -o-flex-direction: column;
+    -ms-flex-direction: column;
+  }
+
+  .social-label {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1605px) {
+  .create-team-image {
+    width: 55%;
+    margin-left: 5%;
+  }
+  .create-team-content {
+    margin-top: -9%;
+  }
+  .user-container {
+    margin: 5% 5% 2% 5% !important;
+  }
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1366px) {
+  .create-team-image {
+    width: 55%;
+    margin-left: 5%;
+  }
+  .create-team-content {
+    margin-top: -9%;
+  }
+  .user-container {
+    margin: 5% 5% 2% 5% !important;
+  }
+}

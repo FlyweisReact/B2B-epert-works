@@ -1,0 +1,73 @@
+.overview {
+  margin: 10px 60px;
+}
+.overview-desc {
+  text-align: justify;
+  margin: 30px 60px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.overview-details {
+  margin: 30px 60px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.overview-list {
+  font-size: 14px;
+  list-style: disc !important;
+
+  display: list-item;
+
+  width: 40%;
+  text-align: justify;
+  margin-left: 70px;
+}
+.overview-header {
+  font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.33em;
+  text-align: left;
+  margin-left: 60px;
+  text-transform: capitalize;
+}
+
+.course-overview-level {
+  text-align: left;
+  margin-left: 60px;
+}
+.add-to-cart {
+  background-color: #0076ce !important;
+  color: white !important;
+  font-size: 15px !important;
+  padding: 5px auto !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+.add-to-cart:hover {
+  color: #0076ce !important;
+  background-color: white !important;
+  border: 1px solid #0076ce;
+}
+
+@media screen and (max-width: 480px) {
+  .overview {
+    margin: 30px 5px;
+  }
+  .course-overview-level,
+  .overview-header {
+    margin-left: 25px;
+  }
+  .overview-desc {
+    margin: 10px 25px 25px 25px;
+  }
+  .overview-details {
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+  .overview-list {
+    margin-left: 45px;
+  }
+}

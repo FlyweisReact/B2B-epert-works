@@ -1,0 +1,42 @@
+.DiaEducation {
+  display: inline-block;
+  width: 100%;
+  clear: both;
+  margin-top: 10px;
+}
+
+.tab {
+  display: inline-block;
+  list-style-type: none;
+
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding-left: 0;
+}
+ li.tablink,li.tablink1 {
+  display: inline-block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 21px 16px;
+  transition: 0.3s;
+  width: 25%;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-right: 0;
+}
+.tablink.active,.tablink1.active {
+  /* background: #da8c5eab; */
+  border-bottom: 3px solid black;
+}
+
+.tablink,.tablink1{
+  padding: 3px;
+}
+
+@media screen and (min-width:800px){
+  li.tablink1{
+    display: none;
+
+  }
+}

@@ -1,0 +1,42 @@
+/** @format */
+
+import React from "react";
+import Navbar from "../Header/Navbar/Navbar";
+import HeadingTile from "../HeadingTile/HeadingTile";
+import "./AddCourse.css";
+
+const AddCourse = () => {
+  return (
+    <>
+      <Navbar />
+      <HeadingTile heading=" Add Courses" />
+      <div className="selectForm">
+        <form>
+          <p>Add Course</p>
+          
+          <label style={{}}>Select Course</label>
+          <select>
+            <option>Java</option>
+            <option>Python</option>
+            <option>Python</option>
+          </select>
+
+          <br />
+          <br />
+          <label style={{}}>Select Day</label>
+          <input type={"date"} placeholder="select data" />
+          <br />
+          <br />
+          <label style={{}}>Starting Time</label>
+          <input type={"time"} />
+          <br />
+          <br />
+          <label style={{}}>Ending  Time</label>
+          <input type={"time"} />
+        </form>
+      </div>
+    </>
+  );
+};
+
+export default AddCourse;

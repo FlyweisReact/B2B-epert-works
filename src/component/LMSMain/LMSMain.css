@@ -1,0 +1,149 @@
+.heading-level {
+  font-size: 14px;
+  font-weight: 800;
+}
+.courses {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+.course-align {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 33%;
+}
+.each-course {
+  flex-basis: 33%;
+}
+
+.course-division {
+  display: flex;
+}
+
+.side-filter {
+  flex: 1;
+  /* border: 2px solid black; */
+  /* box-shadow: 5px 8px 6px #888888; */
+
+  color: #2056ae;
+  border-top: #fff;
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: left;
+  min-height: 100vh;
+}
+.filtered-courses {
+  flex: 5;
+}
+.filter-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+}
+.filter-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.type-style {
+  border-bottom: 2px solid #fff;
+  padding: 10px;
+  margin-left: 20px;
+}
+.type-style:hover,
+.selected-course {
+  background-color: rgb(168, 166, 166);
+  color: white;
+  cursor: pointer;
+  border-right: 2px solid #2056ae;
+}
+
+.filter-icon svg {
+  width: 30px !important;
+  height: 40px !important;
+  color: #0076ce !important;
+  cursor: pointer !important;
+}
+
+.course-heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.level {
+  text-align: left;
+  margin-left: 20px;
+  padding: 0px 30px;
+}
+
+.video_heading p {
+  margin-bottom: 20px;
+}
+.beta-syle {
+  color: red;
+}
+.popover-style {
+  padding: 50px 30px;
+  height: auto;
+  width: 350px;
+}
+.popover-style ul {
+  display: list-item;
+  font-size: 14px;
+  padding: 5px 30px;
+}
+.popover-style ul li {
+  list-style-type: disc;
+  display: list-item;
+  font-size: 16px;
+  padding-top: 8px;
+}
+.popover-style p {
+  margin: 5px auto 0px auto;
+  font-size: medium;
+  font-weight: bold;
+}
+.popover-style span {
+  display: block;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.popover-addtocart {
+  background-color: #0066cc;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: all 0.3s;
+  margin-top: 14px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+.rating-left {
+  text-align: left;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 420px) {
+  .each-course {
+    flex-basis: 99%;
+  }
+}
+/* *::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: orange;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 20px;
+  border: 3px solid orange;
+} */

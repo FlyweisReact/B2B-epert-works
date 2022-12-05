@@ -1,0 +1,63 @@
+.testimonal-bg {
+  background-color: #f7f7f7;
+
+  padding: 80px 180px;
+}
+.section-heading em {
+  font-style: normal;
+  color: #0066cc;
+}
+.faq-align-left {
+  text-align: left;
+}
+
+.questions h6 {
+  font-size: 17px;
+}
+.questions p {
+  font-size: 15px;
+  margin: 10px auto 24px auto;
+}
+.policy-align-justify {
+  text-align: justify;
+}
+
+.policy-points {
+  margin: 10px 50px;
+}
+.policy-heading {
+  display: inline-block;
+  width: 100%;
+  text-align: justify;
+  margin-left: 50px;
+}
+.policy div p,
+.terms div p {
+  font-size: 15px;
+  color: #666666;
+  line-height: 30px;
+  margin: 0px 50px 50px 50px;
+}
+@media screen and (max-width: 480px) {
+  .testimonal-bg {
+    padding: 10px 12px;
+  }
+  .section-heading em {
+    font-style: normal;
+    color: #0066cc;
+    font-size: 20px;
+  }
+  .section-heading {
+    margin-bottom: 30px;
+  }
+  .policy div p,
+  .terms div p {
+    margin: 5px 25px 25px 25px;
+  }
+  .policy-heading {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-right: 25px;
+    text-align: initial;
+  }
+}

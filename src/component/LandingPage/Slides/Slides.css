@@ -1,0 +1,92 @@
+.slide-font-size {
+  font-size: 40px;
+}
+.slide-text {
+  background: none;
+  font-size: 20px;
+  text-align: left;
+}
+.slides-button {
+  background-color: #0066cc;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  transition: all 0.3s;
+  margin-top: 30px;
+}
+.slide-subtext {
+  display: block;
+  font-size: 14px;
+  line-height: 40px;
+}
+.slide-subtext-mobile {
+  display: none;
+}
+.slide-style {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  color: black !important;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-family: system-ui;
+  /* animation: fadeOutLeft 1s both; */
+}
+.slide-color {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  color: #0066cc !important;
+}
+
+.carousel.carousel-slider {
+  height: 690px !important;
+}
+.carousel .slide .legend {
+  background: none;
+  opacity: 0.8;
+  text-align: left;
+  font-size: 21px;
+  bottom: 500px;
+  left: 56%;
+}
+.carousel .slide img {
+  width: 100%;
+  /* vertical-align: top; */
+  border: 0;
+  margin-top: -220px;
+  background-size: cover;
+  background-position: center center;
+}
+.slide-font-size,
+.slide-text span {
+  color: black;
+}
+@media screen and (max-width: 480px) {
+  .slide-font-size {
+    font-size: 20px;
+  }
+  .carousel .slide .legend {
+    top: 3px;
+    background: none;
+    opacity: 0.8;
+    left: 44%;
+    font-size: 11px;
+  }
+  .carousel.carousel-slider {
+    height: 256px !important;
+  }
+  .carousel .slider-wrapper {
+    height: 250px !important;
+  }
+  .carousel .slide img {
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center center;
+  }
+}

@@ -1,0 +1,198 @@
+.Navbar-Items {
+  background: linear-gradient(90deg, white, white 100%);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: white;
+  margin: 10px 0px;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+@media (min-width: 950px) {
+  .Navbar-Items {
+    flex-flow: row;
+  }
+}
+
+.Navbar-Logo {
+  color: #0076ce;
+  margin-left: 30px;
+  cursor: pointer;
+  justify-self: start;
+}
+.fa-react {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 80vw;
+  justify-content: end;
+  margin: 2rem;
+}
+
+.nav-links-main {
+  display: flex;
+}
+
+.nav-links {
+  margin-top: 10px !important;
+  color: #0076ce;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 17px;
+}
+
+.nav-links:hover {
+  background-color: #055999;
+  border-bottom: white;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.navbar-styles {
+  box-shadow: none;
+}
+
+#fade-menu div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: 0;
+}
+
+#fade-menu div ul li {
+  font-size: 18px;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  color: inherit;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#fade-menu div ul li:hover {
+  font-size: 18px;
+  background-color: #055999;
+  color: #fff;
+}
+
+.presentpage {
+  margin-top: 10px !important;
+  color: #0076ce;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 17px;
+  background-color: #0076ce;
+  border-bottom: white;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width: 949px) {
+  .desktopOnly {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .mobileOnly {
+    display: none;
+  }
+}
+
+.MuiAppBar-positionFixed {
+  position: sticky !important;
+}
+
+.hide {
+  display: none;
+}
+
+.showname:hover + .hide {
+  display: block;
+  color: red;
+  background-color: blue;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  opacity: 1;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0076ce;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 3px 0;
+  margin: 10px 0px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 35px;
+  left: -105%;
+}
+@media screen and (max-width: 949px) {
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #0076ce;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px 0;
+    margin: 10px 0px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 35px;
+    left: 25%;
+  }
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

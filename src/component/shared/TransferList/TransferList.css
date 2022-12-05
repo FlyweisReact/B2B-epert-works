@@ -1,0 +1,15 @@
+.transfer-btn{
+    background-color: #0076ce !important;
+    color: #fff !important;
+    padding: 5px !important
+;
+    margin-top: 20px !important;
+    margin-left: 20px !important
+;
+}
+Button:hover{
+    color:#0076ce;
+    background-color: #fff;
+    border: #0076ce;
+
+} 

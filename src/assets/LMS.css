@@ -1,0 +1,57 @@
+.LMSMain {
+  position: relative;
+  /* bottom: 100px; */
+  top: 15%;
+  width: 100%;
+  display: flex;
+}
+.tile {
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+.video_heading {
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.coursename {
+  z-index: 12;
+  position: absolute;
+  right: 20px;
+  left: 19px;
+  bottom: 50px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  font-size: 30px;
+  font-weight: 300;
+  visibility: visible;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.viewcourse {
+  z-index: 12;
+  position: absolute;
+  right: 20px;
+  left: 19px;
+  bottom: 50px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  font-size: 30px;
+  font-weight: 300;
+  visibility: visible;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}

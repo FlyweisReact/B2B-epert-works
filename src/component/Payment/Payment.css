@@ -1,0 +1,93 @@
+.payment-main-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #bdbcbcd4;
+}
+
+.payment-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f4f5ff;
+  padding-bottom: 30px;
+  margin: 70px 150px;
+}
+
+.payment-method-title {
+  display: flex;
+  font-size: 58px;
+  color: black;
+  font-weight: 700;
+  margin: 40px 0px 0px 100px;
+}
+
+.payment-method-subtitle {
+  display: flex;
+  font-size: 34px;
+  color: black;
+  margin: 10px 0px 40px 100px;
+}
+
+.payment-options-lists {
+  display: flex;
+  flex-direction: column;
+  margin-left: 55px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.payment-options-lists .form-radio {
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+
+.payment-options-lists .form-radio label {
+  display: inline-block;
+  color: black;
+  font-size: 38px;
+  padding: 20px 0px;
+  letter-spacing: 1.75px;
+}
+
+.payment-options-lists img {
+  width: 130px;
+  height: 80px;
+  margin-left: 10px;
+}
+
+.payment-options-lists .form-radio input {
+  width: 30px;
+  height: 30px;
+  margin: 0px 15px 5px 0px;
+}
+
+.payment-options-lists .form-radio hr {
+  width: 100%;
+  border-top: 3px solid #999;
+}
+
+.payment-proceed-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 40px;
+}
+
+.payment-proceed-button button {
+  background-color: #0076ce !important;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  padding: 33px 40px;
+  border-radius: 0%;
+}
+
+.inavlid-payment-error {
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 15px;
+  color: red;
+}

@@ -1,0 +1,24 @@
+
+.selectForm{
+    float: left;
+    margin-top: 5%;
+    width: 100%;
+}
+
+ .selectForm select {
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    border: none ;
+    border-bottom: 1px solid black;
+}
+
+.selectForm p{
+    font-size: 2rem;
+}
+
+.selectForm input{
+    width: 30%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}

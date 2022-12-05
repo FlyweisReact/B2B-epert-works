@@ -1,0 +1,38 @@
+/** @format */
+
+body {
+  margin: 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px !important;
+  overflow-y: scroll !important;
+  padding-right: 0px !important;
+  /* overflow-x: scroll !important; */
+}
+
+code {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu_I {
+  font-size: 1.6rem;
+}
+
+.menu_I:hover {
+  background-color: #0076ce;
+  color: white;
+}
+
+.MenuH {
+  position: absolute;
+
+  color: white;
+  top: 100;
+  right:300px;
+
+}
+
+@media (max-width: 768px) {
+}

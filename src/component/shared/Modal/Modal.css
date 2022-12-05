@@ -1,0 +1,66 @@
+.modal-price-chip{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.modal-price{
+    margin-top: 10px;
+}
+.modal-added-course{
+    display: flex;
+    margin-top: 20px;
+}
+.discounted-course-chip{
+    justify-content: space-around;
+}
+.modal-course-img{
+    margin-left: 10px;
+    width:70px;
+    height: 50px;
+}
+.modal-course-img1{
+    margin-left: 10px;
+    width:130px;
+    height: 80px;
+}
+.modal-gotocart{
+    width: 120px;
+    background-color: #0076ce !important;
+    color: white;
+    height: 40px;
+    padding: 10px 5px;
+    margin-left: 20px;
+    font-size: 11px;
+}
+.frequently-bought{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding:10px
+}
+.save-extra{
+    margin-top: 20px;
+}
+.modal-save{
+    margin-top: 10px;
+}
+.default-modal-gotocart {
+    width: auto;
+    background-color: #0076ce !important;
+    color: white;
+    height: 40px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    font-size: 11px;
+    text-align: center;
+    margin-left: 40%;
+    transform: translate(-30%);
+}
+.style-or{
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px 220px
+;
+}
+.modal-btn{
+    font-size: 16px;
+}

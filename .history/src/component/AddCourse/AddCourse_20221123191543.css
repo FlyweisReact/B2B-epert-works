@@ -1,0 +1,16 @@
+
+.selectForm{
+    margin-top: 5%;
+}
+
+ .selectForm select {
+    outline: none;
+    width: 30%;
+    padding: 10px;
+    border: none ;
+    border-bottom: 1px solid black;
+}
+
+.selectForm p{
+    
+}
