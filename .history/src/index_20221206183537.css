@@ -1,0 +1,139 @@
+/** @format */
+
+body {
+  margin: 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px !important;
+  overflow-y: scroll !important;
+  padding-right: 0px !important;
+  /* overflow-x: scroll !important; */
+}
+
+code {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu_I {
+  font-size: 1.6rem;
+}
+
+.menu_I:hover {
+  background-color: #0076ce;
+  color: white;
+}
+
+.main-card--container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 500px));
+  grid-gap: 50px;
+  justify-content: space-around;
+}
+.card-container {
+  margin: 25px 0 auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.card-title {
+  text-align: start;
+  padding-left: 15%;
+}
+
+.card-body h2 {
+  margin-top: 10px;
+}
+
+.card-body p {
+  margin: 0 !important;
+}
+
+.enroll {
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.enroll:hover {
+  color: #fff;
+  background-color: black;
+}
+.UploadLoagoBtn {
+  margin-left: 10%;
+  border: 1px solid black;
+  padding: 5px;
+  width: 80%;
+  transition: 0.5 s ease-in-out;
+}
+
+.UploadLoagoBtn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.searchNar {
+  color: black;
+  border: 1px solid black !important;
+  margin-left: 60%;
+  margin-bottom: 3%;
+  width: 30%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.searchNar:focus {
+  border: 1px solid black !important;
+}
+
+.FormTrial {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-evenly;
+}
+.FormTrial .left {
+  text-align: left;
+  width: 40%;
+}
+.FormTrial .left label {
+  margin-top: 2%;
+}
+.FormTrial  input {
+  width: 50%;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.FormTrial  button { 
+  border: 1px solid black;
+  margin-top: 2%;
+  padding: 5px;
+  width: 50%;
+  transition: 0.5s ;
+  cursor: pointer;
+}
+.formRight .right{
+width: 40%;
+}
+.formRight .right .formRight {
+  text-align: left;
+ 
+}
+.FormTrial .right .formRight label{
+  margin-top: 2%;
+
+}
+
+.FormTrial  button:hover{
+  color: white;
+  background-color: black;
+}
+.FormTrial  input:focus{
+  border: 1px solid black !important;
+}
