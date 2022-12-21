@@ -1,0 +1,10 @@
+
+.myNav {
+    display: flex;
+}
+.myNav .up{
+    width: 200px;
+}
+.myNav .mid{
+    border: 1px solid black;
+}

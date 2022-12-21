@@ -1,0 +1,17 @@
+
+.myNav {
+    display: flex;
+    justify-content: space-between;
+}
+.myNav .up{
+    width: 200px;
+}
+.myNav .mid input{
+    border: 1px solid black;
+    width: 200px;
+}
+.myNav .down ul {
+    display: flex;
+    gap: 30px;
+    margin-right: ;
+}

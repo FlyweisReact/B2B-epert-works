@@ -1,0 +1,12 @@
+
+.myNav {
+    display: flex;
+    justify-content: space-between;
+}
+.myNav .up{
+    width: 200px;
+}
+.myNav .mid input{
+    border: 1px solid black;
+    width: ;
+}

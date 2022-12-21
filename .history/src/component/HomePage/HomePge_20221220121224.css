@@ -1,0 +1,7 @@
+
+.myNav {
+    display: flex;
+}
+.myNav .up{
+    width: 100px;
+}
