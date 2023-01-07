@@ -82,12 +82,13 @@ export const App = () => {
 
 
 
-        {/* <RouteWithErrorBoundary path="/Home" component={HomePage} exact /> */}
+        <RouteWithErrorBoundary path="/Home" component={HomePage} exact />
+
 
 
 
         <RouteWithErrorBoundary path="/old" component={ErrorScreen} exact />
-        <RouteWithErrorBoundary path="/" component={HomePage} exact />
+        <RouteWithErrorBoundary path="/" component={LandingPage} exact />
         <RouteWithErrorBoundary path="/addCourse" component={AddCourse} exact />
         <RouteWithErrorBoundary path="/train" component={Training} exact />
         <RouteWithErrorBoundary path="/enrollment" component={Summary} exact />

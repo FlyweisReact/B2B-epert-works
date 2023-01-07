@@ -176,8 +176,8 @@ const HomePage = () => {
         <div className="CarouselDiv">
           <img src={img12} alt="" style={{ width: "100%" }} />
           <p>
-            Learn this Top <br /> Programming  language from  <br />the intermediate{" "}
-            Level
+            Learn this Top <br /> Programming  language from the intermediate{" "}
+            <br /> Level
           </p>
           <span
             style={{

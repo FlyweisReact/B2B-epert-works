@@ -13,7 +13,7 @@ import Navbar from "../Header/Navbar/Navbar";
 import { useHistory } from "react-router-dom";
 
 import img10 from "../../img/New/azure.jpeg";
-import img11 from "../../img/New/dl.jpeg";
+// import img11 from "../../img/New/dl.jpeg";
 import img12 from "../../img/New/java.jpeg";
 
 const breakPoints = [
@@ -143,7 +143,7 @@ const HomePage = () => {
 
       <Carousel breakPoints={breakPoints} className="myCarousel">
         <div className="CarouselDiv">
-          <img src={img10} alt="" style={{ width: "100%" }} />
+          <img src={img10} alt="" style={{ width: "400px" }} />
           <p>
             Learn this In-Demand <br /> course from the Beginner <br /> Level
           </p>
@@ -159,7 +159,7 @@ const HomePage = () => {
         </div>
 
         <div className="CarouselDiv">
-          <img src={img11} alt="" style={{ width: "100%" }} />
+          {/* <img src={img11} alt="" style={{ width: "400px" }} /> */}
           <p>
             Deep Learning course <br /> with Expert-Level <br /> information
           </p>
@@ -174,10 +174,10 @@ const HomePage = () => {
           </span>
         </div>
         <div className="CarouselDiv">
-          <img src={img12} alt="" style={{ width: "100%" }} />
+          <img src={img12} alt="" style={{ width: "400px" }} />
           <p>
-            Learn this Top <br /> Programming  language from  <br />the intermediate{" "}
-            Level
+            Learn this Top Programming <br /> language from the intermediate{" "}
+            <br /> Level
           </p>
           <span
             style={{
@@ -190,7 +190,7 @@ const HomePage = () => {
           </span>
         </div>
         <div className="CarouselDiv">
-          <img src={img10} alt="" style={{ width: "100%" }} />
+          <img src={img10} alt="" style={{ width: "400px" }} />
           <p>
             Learn this In-Demand <br /> course from the Beginner <br /> Level
           </p>
@@ -205,7 +205,7 @@ const HomePage = () => {
           </span>
         </div>
         <div className="CarouselDiv">
-          <img src={img11} alt="" style={{ width: "100%" }} />
+          <img src={img11} alt="" style={{ width: "400px" }} />
           <p>
             Learn this In-Demand <br /> course from the Beginner <br /> Level
           </p>

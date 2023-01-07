@@ -1,20 +1,20 @@
 /** @format */
 import "./HomePge.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+} from "@fortawesome/free-solid-svg-icons";
 import img from "../../img/New/home_page-1_1-removebg-preview (1).png";
-import Banner from "../../img/New/WhatsApp Image 2022-12-23 at 3.37.32 PM.jpeg";
+import Banner from '../../img/New/WhatsApp Image 2022-12-23 at 3.37.32 PM.jpeg'
+import img2 from "../../img/New/azure 1.png";
+import img3 from "../../img/New/deep learning 1.png";
+import img4 from "../../img/New/java 1.png";
 
 import img5 from "../../img/New/Alameda 1.png";
 import img6 from "../../img/New/logo 1.png";
 
 import Carousel from "react-elastic-carousel";
 import Navbar from "../Header/Navbar/Navbar";
-import { useHistory } from "react-router-dom";
-
-import img10 from "../../img/New/azure.jpeg";
-import img11 from "../../img/New/dl.jpeg";
-import img12 from "../../img/New/java.jpeg";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -24,11 +24,10 @@ const breakPoints = [
 ];
 
 const HomePage = () => {
-  const history = useHistory();
-
   return (
     <>
-      <Navbar />
+    <Navbar />
+    
 
       <div className="CourseNav">
         <ul>
@@ -67,15 +66,14 @@ const HomePage = () => {
             gives you <br />
             the liberty to learn <strong>whenever , </strong>
             <strong>whereever & </strong> <strong>however </strong>
+            
             you prefer
           </p>
 
           <p style={{ fontSize: "1.6rem" }}>
             Upskill Your Career with Self-paced , Hassie-free Learning Module
           </p>
-          <button onClick={() => history.push("/trial")}>
-            START YOUR FREE TRIAL
-          </button>
+          <button>START YOUR FREE TRIAL</button>
         </div>
       </div>
       {/* --------------------------------------------------- */}
@@ -88,7 +86,7 @@ const HomePage = () => {
             </p>
             <p style={{ fontWeight: "100" }}>Start learning now</p>
           </div>
-          <button onClick={() => history.push("/signup")}>SIGNUP NOW</button>
+          <button>SIGNUP NOW</button>
         </div>
       </div>
 
@@ -143,7 +141,7 @@ const HomePage = () => {
 
       <Carousel breakPoints={breakPoints} className="myCarousel">
         <div className="CarouselDiv">
-          <img src={img10} alt="" style={{ width: "100%" }} />
+          <img src={img2} alt="" style={{ width: "400px" }} />
           <p>
             Learn this In-Demand <br /> course from the Beginner <br /> Level
           </p>
@@ -157,9 +155,8 @@ const HomePage = () => {
             Watch Video (2:02)
           </span>
         </div>
-
         <div className="CarouselDiv">
-          <img src={img11} alt="" style={{ width: "100%" }} />
+          <img src={img3} alt="" style={{ width: "400px" }} />
           <p>
             Deep Learning course <br /> with Expert-Level <br /> information
           </p>
@@ -174,10 +171,10 @@ const HomePage = () => {
           </span>
         </div>
         <div className="CarouselDiv">
-          <img src={img12} alt="" style={{ width: "100%" }} />
+          <img src={img4} alt="" style={{ width: "400px" }} />
           <p>
-            Learn this Top <br /> Programming  language from  <br />the intermediate{" "}
-            Level
+            Learn this Top Programming <br /> language from the intermediate{" "}
+            <br /> Level
           </p>
           <span
             style={{
@@ -190,7 +187,7 @@ const HomePage = () => {
           </span>
         </div>
         <div className="CarouselDiv">
-          <img src={img10} alt="" style={{ width: "100%" }} />
+          <img src={img2} alt="" style={{ width: "400px" }} />
           <p>
             Learn this In-Demand <br /> course from the Beginner <br /> Level
           </p>
@@ -205,7 +202,7 @@ const HomePage = () => {
           </span>
         </div>
         <div className="CarouselDiv">
-          <img src={img11} alt="" style={{ width: "100%" }} />
+          <img src={img3} alt="" style={{ width: "400px" }} />
           <p>
             Learn this In-Demand <br /> course from the Beginner <br /> Level
           </p>

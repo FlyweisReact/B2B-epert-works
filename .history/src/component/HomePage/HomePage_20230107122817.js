@@ -177,7 +177,7 @@ const HomePage = () => {
           <img src={img12} alt="" style={{ width: "100%" }} />
           <p>
             Learn this Top <br /> Programming  language from  <br />the intermediate{" "}
-            Level
+            <br /> Level
           </p>
           <span
             style={{

@@ -143,7 +143,7 @@ const HomePage = () => {
 
       <Carousel breakPoints={breakPoints} className="myCarousel">
         <div className="CarouselDiv">
-          <img src={img10} alt="" style={{ width: "100%" }} />
+          <img src={img10} alt="" style={{ width: "400px" }} />
           <p>
             Learn this In-Demand <br /> course from the Beginner <br /> Level
           </p>
@@ -176,8 +176,8 @@ const HomePage = () => {
         <div className="CarouselDiv">
           <img src={img12} alt="" style={{ width: "100%" }} />
           <p>
-            Learn this Top <br /> Programming  language from  <br />the intermediate{" "}
-            Level
+            Learn this Top Programming <br /> language from the intermediate{" "}
+            <br /> Level
           </p>
           <span
             style={{

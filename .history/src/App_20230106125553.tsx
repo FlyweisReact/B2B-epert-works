@@ -86,6 +86,7 @@ export const App = () => {
 
 
 
+
         <RouteWithErrorBoundary path="/old" component={ErrorScreen} exact />
         <RouteWithErrorBoundary path="/" component={HomePage} exact />
         <RouteWithErrorBoundary path="/addCourse" component={AddCourse} exact />

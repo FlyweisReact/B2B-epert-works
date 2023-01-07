@@ -290,13 +290,20 @@ function PersistentDrawerLeft(props: any) {
                 </span>
               </div>
             </li>
-            {/* <li>
+            <li>
               <div className="nav-links-main">
                 <span className="nav-links"  onClick={() => navigationHandler("/trial")}>
                   <span>Start Your Free Trial</span>
                 </span>
               </div>
-            </li> */}
+            </li>
+            <li>
+              <div className="nav-links-main">
+                <span className="nav-links"  onClick={() => navigationHandler("/Home")}>
+                  <span>Landing Page</span>
+                </span>
+              </div>
+            </li>
             <li>
               {authState && (
                 <div className="nav-links-main">
