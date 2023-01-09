@@ -202,17 +202,22 @@ code {
 }
 
 .BillingDiv .left {
+  /* display: flex; */
+  /* gap: 2rem; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 60%;
+  /* justify-content: space-evenly; */
   background-color: #f2f2f2;
   text-align: center;
-  border: 2px solid #f2f2f2;
+  border: 2px solid #f2f2f2;\
 }
 .BillingDiv .left .divSub {
   display: flex;
   justify-content: space-evenly;
 }
 .BillingDiv .left .up {
+  /* margin-left: 5%;
+  margin-top: 2%; */
   margin: 5%;
 }
 
