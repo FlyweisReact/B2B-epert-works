@@ -374,7 +374,7 @@ const LMSVideos: React.FC = (props: any) => {
 
       <div className="flex-container">
         <div className="rightBar">
-          <p style={{ fontSize: "2rem" ,  textTransform: "capitalize" }}> {courseName} {courseLevel} </p>
+          <p style={{ fontSize: "2rem"  }}> {courseName} </p>
           <div className="player_section">
             <div
               className="video-dimension"
